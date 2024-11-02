@@ -6,7 +6,7 @@
       "se": "Kök"
     },
     "tags": ["home"],
-    "views": 0,
+    "viewCount": 0,
     "correctCount": 0,
     "wrongCount": 0,
     "lastViewed": null,
@@ -20,7 +20,7 @@
       "se": "Sovrum"
     },
     "tags": ["home"],
-    "views": 0,
+    "viewCount": 0,
     "correctCount": 0,
     "wrongCount": 0,
     "lastViewed": null,
@@ -34,7 +34,7 @@
       "se": "Morot"
     },
     "tags": ["food"],
-    "views": 0,
+    "viewCount": 0,
     "correctCount": 0,
     "wrongCount": 0,
     "lastViewed": null,
@@ -48,7 +48,7 @@
       "se": "Rödbeta"
     },
     "tags": ["food"],
-    "views": 0,
+    "viewCount": 0,
     "correctCount": 0,
     "wrongCount": 0,
     "lastViewed": null,
@@ -62,7 +62,7 @@
       "se": "Potatisk"
     },
     "tags": ["food"],
-    "views": 0,
+    "viewCount": 0,
     "correctCount": 0,
     "wrongCount": 0,
     "lastViewed": null,
