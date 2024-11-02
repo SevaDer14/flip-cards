@@ -1,0 +1,72 @@
+[
+  {
+    "id": "1",
+    "word": "Kitchen",
+    "translations": {
+      "se": "Kök"
+    },
+    "tags": ["home"],
+    "views": 0,
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastViewed": null,
+    "createdAt": "2024-11-02T09:23:53.610Z",
+    "updatedAt": "2024-11-02T09:23:53.610Z"
+  },
+  {
+    "id": "2",
+    "word": "Bedroom",
+    "translations": {
+      "se": "Sovrum"
+    },
+    "tags": ["home"],
+    "views": 0,
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastViewed": null,
+    "createdAt": "2024-11-02T09:23:53.610Z",
+    "updatedAt": "2024-11-02T09:23:53.610Z"
+  },
+  {
+    "id": "3",
+    "word": "Carrot",
+    "translations": {
+      "se": "Morot"
+    },
+    "tags": ["food"],
+    "views": 0,
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastViewed": null,
+    "createdAt": "2024-11-02T09:23:53.610Z",
+    "updatedAt": "2024-11-02T09:23:53.610Z"
+  },
+  {
+    "id": "4",
+    "word": "Beetroot",
+    "translations": {
+      "se": "Rödbeta"
+    },
+    "tags": ["food"],
+    "views": 0,
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastViewed": null,
+    "createdAt": "2024-11-02T09:23:53.610Z",
+    "updatedAt": "2024-11-02T09:23:53.610Z"
+  },
+  {
+    "id": "5",
+    "word": "Potato",
+    "translations": {
+      "se": "Potatisk"
+    },
+    "tags": ["food"],
+    "views": 0,
+    "correctCount": 0,
+    "wrongCount": 0,
+    "lastViewed": null,
+    "createdAt": "2024-11-02T09:23:53.610Z",
+    "updatedAt": "2024-11-02T09:23:53.610Z"
+  }
+]
