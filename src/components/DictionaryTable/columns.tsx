@@ -39,15 +39,19 @@ export const columns: ColumnDef<DictionaryRecord>[] = [
   },
   {
     accessorKey: "viewCount",
-    header: "Viewed",
+    header: () => <p className="text-center">Viewed</p>,
+    cell: ({ row }) => (
+      <p className="text-center">{row.getValue("viewCount")}</p>
+    ),
   },
   {
     id: "successRate",
-    header: "% correct",
+    header: () => <p className="text-center">% correct</p>,
     cell: ({ row }) => {
-      if (row.original.viewCount === 0) return "0";
+      if (row.original.viewCount === 0) return <p className="text-center">0</p>;
+
       const ratio = row.original.correctCount / row.original.viewCount;
-      return `${Math.floor(ratio * 100)} %`;
+      return <p className="text-center">{`${Math.floor(ratio * 100)} %`}</p>;
     },
   },
 ];
