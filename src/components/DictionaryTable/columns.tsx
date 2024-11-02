@@ -1,6 +1,6 @@
 import { DictionaryRecord } from "@/lib/types";
 import { ColumnDef } from "@tanstack/react-table";
-import { Checkbox } from "@/components/ui/checkbox"
+import { Checkbox } from "@/components/ui/checkbox";
 
 export const columns: ColumnDef<DictionaryRecord>[] = [
   {
@@ -40,5 +40,14 @@ export const columns: ColumnDef<DictionaryRecord>[] = [
   {
     accessorKey: "viewCount",
     header: "Viewed",
+  },
+  {
+    id: "successRate",
+    header: "% correct",
+    cell: ({ row }) => {
+      if (row.original.viewCount === 0) return "0";
+      const ratio = row.original.correctCount / row.original.viewCount;
+      return `${Math.floor(ratio * 100)} %`;
+    },
   },
 ];

@@ -52,14 +52,6 @@ function HomeComponent() {
           />
         </>
       )}
-
-      <Button
-        variant="outline"
-        className="mt-8 w-max"
-        onClick={() => db.words.clear()}
-      >
-        Clear dictionary
-      </Button>
     </div>
   );
 }
