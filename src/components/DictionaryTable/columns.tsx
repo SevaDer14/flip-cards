@@ -26,10 +26,6 @@ export const columns: ColumnDef<DictionaryRecord>[] = [
     enableHiding: false,
   },
   {
-    accessorKey: "id",
-    header: "ID",
-  },
-  {
     accessorKey: "word",
     header: "Eng",
   },
@@ -39,7 +35,7 @@ export const columns: ColumnDef<DictionaryRecord>[] = [
   },
   {
     accessorKey: "tags",
-    header: "Tags",
+    header: "Tag",
   },
   {
     accessorKey: "viewCount",
