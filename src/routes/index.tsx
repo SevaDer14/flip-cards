@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import defaultDictionary from "../../defaultDictionary.json";
-import { dictionarySchema } from "../types";
+import { dictionarySchema } from "@/types";
 
 export const Route = createFileRoute("/")({
   component: HomeComponent,
