@@ -16,7 +16,6 @@ function getTags(rows: any[]) {
 
   for (const row of rows) {
     const val = row.getValue("tags")[0];
-    console.log(val);
     if (!result.includes(val)) result.push(val);
   }
 
@@ -71,7 +70,7 @@ export const columns: ColumnDef<DictionaryRecord>[] = [
         <SelectContent>
           <SelectItem value="all">all</SelectItem>
           {getTags(table.getPreFilteredRowModel().rows).map((tag: string) => (
-            <SelectItem value={tag}>{tag}</SelectItem>
+            <SelectItem key={tag} value={tag}>{tag}</SelectItem>
           ))}
         </SelectContent>
       </Select>
